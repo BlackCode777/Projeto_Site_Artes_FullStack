@@ -1,0 +1,82 @@
+[
+  {
+    "_id": 100,
+    "nomeCompleto": "Tarsila do Teste Query",
+    "username": "tarsila_query",
+    "biografia": "Mock de artista modernista para testes de consulta.",
+    "data_registro": { "$date": "2025-01-10T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 101,
+    "nomeCompleto": "Di Cavalcanti Consulta",
+    "username": "di_query",
+    "biografia": "Mock de artista para teste de lista e busca por ID.",
+    "data_registro": { "$date": "2025-02-15T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 102,
+    "nomeCompleto": "Candido Portinari Cache",
+    "username": "portinari_query",
+    "biografia": "Mock de artista social para teste de portfólio.",
+    "data_registro": { "$date": "2025-03-20T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 103,
+    "nomeCompleto": "Anita Malfatti Query",
+    "username": "anita_query",
+    "biografia": "Outro mock de modernista.",
+    "data_registro": { "$date": "2025-04-01T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 104,
+    "nomeCompleto": "Frida Kahlo Query",
+    "username": "frida_query",
+    "biografia": "Artista internacional para diversidade.",
+    "data_registro": { "$date": "2025-05-05T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 105,
+    "nomeCompleto": "Van Gogh Consulta",
+    "username": "vangogh_query",
+    "biografia": "Mock para teste de atualização.",
+    "data_registro": { "$date": "2025-06-10T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 106,
+    "nomeCompleto": "Monet Cache",
+    "username": "monet_query",
+    "biografia": "Impressionista mock.",
+    "data_registro": { "$date": "2025-07-15T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 107,
+    "nomeCompleto": "Renoir Query",
+    "username": "renoir_query",
+    "biografia": "Mock para deleção.",
+    "data_registro": { "$date": "2025-08-20T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 108,
+    "nomeCompleto": "Picasso Teste Query",
+    "username": "picasso_query",
+    "biografia": "Cubista mock.",
+    "data_registro": { "$date": "2025-09-25T10:00:00.000Z" },
+    "obrasDeArte": []
+  },
+  {
+    "_id": 109,
+    "nomeCompleto": "Dali Consulta",
+    "username": "dali_query",
+    "biografia": "Surrealista mock.",
+    "data_registro": { "$date": "2025-10-30T10:00:00.000Z" },
+    "obrasDeArte": []
+  }
+]

@@ -1,0 +1,26 @@
+# src/main/resources/application-test.yaml
+spring:
+
+  app:
+    kafka:
+      enabled: false
+
+  datasource:
+    # Pode usar o mesmo DB ou um DB separado para testes
+    url: jdbc:postgresql://localhost:5432/arte-galeria-dbPostgres
+    username: galeria_user
+    password: senhapadrao
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop #none # para testes é comum recriar o schema
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/arte-galeria-dbMongo
+
+logging:
+  level:
+    root: WARN
+    org.hibernate.SQL: INFO

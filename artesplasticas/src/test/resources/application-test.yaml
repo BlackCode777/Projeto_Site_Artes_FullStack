@@ -1,0 +1,28 @@
+spring:
+  # ----------------------------------------------------
+  # Configuração de Banco de Dados para Testes (Perfil 'test')
+  # Força o uso do H2 em memória para isolamento e velocidade.
+  # ----------------------------------------------------
+
+  spring:
+    app:
+      kafka:
+        enabled: false
+
+    datasource:
+      url: jdbc:h2:mem:arte-galeria-dbPostgres
+      driver-class-name: org.h2.Driver
+      username: sa
+      password: sa
+
+    jpa:
+      hibernate:
+        ddl-auto: create-drop
+
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/arte-galeria-dbMongo
+
+  logging:
+    level:
+      root: WARN

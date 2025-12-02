@@ -1,0 +1,26 @@
+# src/main/resources/application-dev.yaml
+spring:
+
+  app:
+    kafka:
+      enabled: true   # usa Kafka real no dev
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/arte-galeria-dbPostgres
+    username: galeria_user
+    password: senhapadrao
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/arte-galeria-dbMongo
+
+logging:
+  level:
+    root: INFO
+    org.hibernate.SQL: DEBUG
+    org.springframework.kafka: DEBUG

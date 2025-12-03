@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <appender name="MONGODB" class="ch.qos.logback.classic.db.DBAppender">
+        <connectionSource class="ch.qos.logback.classic.db.DBConnectionSource">
+            <driverClass>org.mongodb.Driver</driverClass>
+            <url>mongodb://localhost:27017/logs</url>
+            <user>yourUsername</user>
+            <password>yourPassword</password>
+        </connectionSource>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="MONGODB" />
+    </root>
+</configuration>

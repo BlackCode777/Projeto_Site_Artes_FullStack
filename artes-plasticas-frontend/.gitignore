@@ -1,49 +1,62 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# ===============================
+# Angular / Node
+# ===============================
 
-# D:\PROGRAMACAO\03_JAVA\02-Projeto_Site_Artes_git\Projeto_Site_Artes\logErro.txt
-./logErro.txt
-./ExemplosDePaginas_3D/
-# Ignore pasta Erros neste caminho /D:\PROGRAMACAO\03_JAVA\02-Projeto_Site_Artes_git\Projeto_Site_Artes\artes-plasticas-frontend/Erros
-./Erros/
+node_modules/
+dist/
+.angular/
+.angular/cache/
+.vscode
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# ===============================
+# Logs e arquivos de erro
+# ===============================
 
-# Node
-/node_modules
+*.log
 npm-debug.log
 yarn-error.log
+logErro.txt
 
-# IDEs and editors
+# ===============================
+# Builds e temporários
+# ===============================
+
+tmp/
+out-tsc/
+bazel-out/
+
+# ===============================
+# IDEs e editores
+# ===============================
+
 .idea/
 .project
 .classpath
-.c9/
-*.launch
 .settings/
+*.launch
 *.sublime-workspace
 
-# Visual Studio Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
+.history/
 
-# Miscellaneous
-/.angular/cache
+# ===============================
+# Cache e outros
+# ===============================
+
 .sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+connect.lock
+coverage/
+libpeerconnection.log
+typings/
 __screenshots__/
 
-# System files
+# ===============================
+# Sistema operacional
+# ===============================
+
 .DS_Store
 Thumbs.db

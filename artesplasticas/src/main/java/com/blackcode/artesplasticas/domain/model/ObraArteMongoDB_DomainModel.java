@@ -19,7 +19,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class ObraArteMongoDB_DomainModel{
 
     @Field("id_obra")
-    private Long idObraArte;      // Pode ser o mesmo ID do Postgres, se quiser manter o vínculo
+    private Long idObraArte;
 
     @Field("titulo")
     private String titulo;
@@ -32,5 +32,8 @@ public class ObraArteMongoDB_DomainModel{
 
     @Field("tecnica")
     private String tecnicaUtilizada;
+
+    @Field("imagem_obra")
+    private byte[] imagemObra;
 
 }

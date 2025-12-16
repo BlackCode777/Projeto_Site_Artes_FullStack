@@ -19,4 +19,6 @@ public class ObraArtePostgresDto_DomainModelDto{
     // Opcional: apenas o ID do artista, para evitar referência circular pesada
     private Long idArtista;
 
+    private byte[] imagemObra;
+
 }

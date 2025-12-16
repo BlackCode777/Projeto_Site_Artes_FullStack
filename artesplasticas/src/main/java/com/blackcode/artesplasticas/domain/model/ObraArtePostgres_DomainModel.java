@@ -35,4 +35,8 @@ public class ObraArtePostgres_DomainModel{
     @JoinColumn(name = "artista_id", nullable = false)
     private ArtistaPostgres_DomainModel artista;
 
+    @Lob
+    @Column(name = "imagem_obra", columnDefinition = "BYTEA")
+    private byte[] imagemObra;
+
 }
